@@ -31,6 +31,7 @@
     "prepublishOnly": "yarn build && yarn tsc"
   },
   "devDependencies": {
+    "@big-whale-labs/seal-hub-contract": "^0.1.0",
     "@ethersproject/providers": "^5.7.2",
     "@nomiclabs/hardhat-ethers": "^2.2.1",
     "@nomiclabs/hardhat-etherscan": "^3.1.2",
