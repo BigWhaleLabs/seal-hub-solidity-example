@@ -6,7 +6,7 @@ import {ECDSAProof} from "@big-whale-labs/seal-hub-contract/contracts/SealHub.so
 
 contract SealHubExample {
   // SealHub contract
-  SealHub sealHub;
+  SealHub public sealHub;
 
   /// @param sealHubAddress SealHub contract address.
   constructor(address sealHubAddress) {
